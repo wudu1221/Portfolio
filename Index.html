@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="" class="logo" alt="mylohgo" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>UX/UI Designer</p>
+          <h1>Hi, I am <span>Wudu</span> <br />from Ethiopia</h1>
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="Images/image_21.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>my nae is wudneh birhan from Addis Ababa and I like coding</p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experiance')">
+                Experiance
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UX/UI</span><br />Designing Web/App interfaces</li>
+                <li>
+                  <span>Web Developement</span><br />Developing web applications
+                </li>
+                <li>
+                  <span>App Developement</span><br />Developing Android/ios
+                  applications
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experiance">
+              <ul>
+                <li>
+                  <span>2024-now</span><br />Software developer at Ethiopian
+                  Statistical Services
+                </li>
+                <li>
+                  <span>2023-2024</span><br />Teaching web design course at
+                  Montessorian School
+                </li>
+                <li>
+                  <span>2022-2023</span><br />Internship for web sevelopement at
+                  Injibara University
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2018-2023</span><br />BSC of Software Engineering At
+                  Bahir Dar University
+                </li>
+                <li>
+                  <span>2015-2018</span><br />High School Education at Tilili
+                  Preparatory School
+                </li>
+                <li>
+                  <span>2007-2014</span><br />Elementary School at Warda School
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+    </script>
+  </body>
+</html>
