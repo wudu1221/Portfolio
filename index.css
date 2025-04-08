@@ -398,3 +398,9 @@ nav .hide-icon {
 html {
   scroll-behavior: smooth;
 }
+#send {
+  display: block;
+  font-size: larger;
+  margin-top: 10px;
+  color: #f14e0d;
+}
